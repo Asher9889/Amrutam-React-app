@@ -17,14 +17,14 @@ const Approach = () => {
     <>
     <div className='w-[100vw] h-[100vh]  pt-10'>
       <div className=' flex flex-col gap-3 items-center'>
-        <div className=' w-[34.5%] text-center'>
+        <div className=' w-[33.5%] text-center'>
           <Heading value={text}/>
         </div>
         <div className='w-[45%] font-dinProMedium text-center text-[#323232]'>
         At Amrutam we follow a unique and personalized approach to healing. Our expert practitioners begin each treatment process by conducting a thorough analysis of the patient’s body type, medical history, and current health conditions.
         </div>
       </div>
-      <div className='flex gap-5 mt-10 justify-center items-center'>
+      <div className='flex gap-5 mt-16 justify-center items-center'>
         {data.map((elem,index)=> <CountCard count={elem.count} title={elem.title} desc={elem.description}/>)}
         
       </div>
