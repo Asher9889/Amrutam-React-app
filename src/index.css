@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url(https://db.onlinewebfonts.com/c/12108809f49c49bcdc126dcecc938761?family=Nexa+Light); */
+
+:root{
+  --primary-bg-color: #FFF7E2;
+  --text-primary-color: #FFF7E2;
+  --secondary-bg-color: #FFF;
+  --text-secondary-color: #FFF;
+  --green-color: #3A643B;
+  --gray-color: #C9C9C9;
+  --line-color: #C3D0C4;
+  --dark-gray-color: #666666;
+  --treatment-gray-color: #515151;
+}

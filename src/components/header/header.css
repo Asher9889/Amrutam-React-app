@@ -1,0 +1,9 @@
+
+.color{
+  background: linear-gradient(90deg, rgba(18,18,18,0.874562324929972) 0%, rgba(18,18,18,0.87) 45%, rgba(18,18,18,0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
