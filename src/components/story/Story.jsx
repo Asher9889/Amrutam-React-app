@@ -8,9 +8,9 @@ const Story = () => {
   const text = "Stories from our valued customers!"
   return (
     <div className='w-[100vw] h-[95vh] gap-16 bg-[var(--primary-bg-color)] flex flex-col items-center pt-14'>
-      <div className='w-[48%] '>
+      
       <Heading value={text}/>
-      </div>
+      
       <div className='flex gap-8'>
         {data.map((elem,index)=> <StoryCard key="elem"/>)}
       </div>

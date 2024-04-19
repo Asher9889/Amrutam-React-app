@@ -17,7 +17,7 @@ const Approach = () => {
     <>
     <div className='w-[100vw] h-[100vh]  pt-10'>
       <div className=' flex flex-col gap-3 items-center'>
-        <div className=' w-[33.5%] text-center'>
+        <div className=' text-center'>
           <Heading value={text}/>
         </div>
         <div className='w-[45%] font-dinProMedium text-center text-[#323232]'>

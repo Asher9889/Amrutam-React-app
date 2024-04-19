@@ -9,9 +9,9 @@ const Expert = () => {
   return (
     <div className='w-[100vw] h-[100vh]  pt-10 flex flex-col gap-7 items-center'>
       
-      <div className='w-[37.5%]'>
-        <Heading value={text}/>
-      </div>
+      
+      <Heading value={text}/>
+      
         
         
       <div className='flex gap-8 items-center gap-10'>

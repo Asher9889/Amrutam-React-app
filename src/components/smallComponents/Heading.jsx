@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Heading = ({value}) => {
+const Heading = ({ value }) => {
   return (
-    <div className='relative pb-2 ' >
-      <p className=' px-4 font-dinPro text-4xl text-[var(--green-color)] absolute'>{value}</p>
-      <hr className='border-b-4 rounded-[3px] border-t-0 w-full border-[var(--line-color)] pt-[34px]   ' />
+    <div className=" w-fit relative">
+      
+        <p className="relative z-10 font-dinPro text-4xl text-[var(--green-color)] ">
+        &#160;&#160;&#160;{value}&#160;&#160;&#160;
+        </p>
+        <div className="absolute bottom-[2px] rounded-[3px] w-full bg-[var(--line-color)] h-1 bg-red-500" />
+      
     </div>
-  )
-}
+  );
+};
 
-export default Heading
+export default Heading;

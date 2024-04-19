@@ -19,7 +19,7 @@ const Consultation = () => {
   return (
     <div className=' w-[100vw] h-[100vh] bg-[var(--primary-bg-color)] '>
       <div className='h-[20vh] flex flex-col justify-center'>
-        <div className='w-[56%] mx-auto'>
+        <div className=' mx-auto'>
           <Heading value={text}/>
         </div>
       </div>
