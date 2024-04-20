@@ -11,7 +11,7 @@ const Story = () => {
       
       <Heading value={text}/>
       
-      <div className='flex gap-8 overflow-x-auto shrink-0 '>
+      <div className='flex gap-8 pb-8 lg:pb[0] overflow-x-auto '>
         {data.map((elem,index)=> <StoryCard key="elem"/>)}
       </div>
       <div className='lg:pb-0 pb-6' >

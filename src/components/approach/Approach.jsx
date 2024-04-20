@@ -24,7 +24,7 @@ const Approach = () => {
         At Amrutam we follow a unique and personalized approach to healing. Our expert practitioners begin each treatment process by conducting a thorough analysis of the patient’s body type, medical history, and current health conditions.
         </div>
       </div>
-      <div className='flex gap-5 mt-16 overflow-x-auto mb-10 lg:flex-row justify-center items-center'>
+      <div className='flex gap-5 mt-16 overflow-x-auto pb-10 lg:flex-row justify-center items-center'>
         {data.map((elem,index)=> <CountCard count={elem.count} title={elem.title} desc={elem.description}/>)}
         
       </div>
