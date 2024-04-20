@@ -2,7 +2,7 @@ import React from 'react'
 import "./ctd.css"
 const CTD = () => {
   return (
-    <div className='flex flex-col lg:flex-row mb-6 lg:mb-[0]  w-[100vw] h-fit lg:h-[100vh] bg-[var(--primary-bg-color)]'>
+    <div className='flex flex-col lg:flex-row pb-6 lg:pb-[0]  w-[100vw] h-fit lg:h-[100vh] bg-[var(--primary-bg-color)]'>
       <div className=' flex-1 flex flex-col items-center lg:items-end'>
         <div className=' lg:w-[70%] w-fit mt-14 lg:mt-28'>
           <h1 className='font-dinPro text-center lg:text-start text-4xl mb-5 text-[var(--green-color)] '>Amrutam home App</h1>

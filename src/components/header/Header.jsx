@@ -20,7 +20,7 @@ const Header = () => {
         </div>
         {/* image for sm screen */}
        
-          <img src="/frame32.png" alt="" className="w-full h-full md:hidden " />
+          <img src="/frame32.png" alt="" className="w-full h-full object-cover md:hidden " />
        
 
         <div className="color "></div>
