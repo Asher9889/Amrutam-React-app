@@ -7,7 +7,7 @@ const Expert = () => {
   const text = "Meet our Ayurveda experts"
 
   return (
-    <div className='w-[100vw] h-[100vh]  pt-10 flex flex-col gap-7 items-center'>
+    <div className='w-[100vw] h-fit lg:h-[100vh] px-4 lg:px[0]  pt-10 flex flex-col gap-7 items-center'>
       
       
       <Heading value={text}/>
@@ -26,7 +26,7 @@ const Expert = () => {
         <span className='inline-block w-2 h-2 rounded-full bg-zinc-400 mr-6'></span>
       </div>
 
-      <div className='bg-[#D9D9D9] text-xl px-4 py-2 border-2 border-[var(--green-color)] font-dinProMedium text-[var(--green-color)]'>
+      <div className='bg-[#D9D9D9] text-xl mb-10 lg:mb-[0] px-4 py-2 border-2 border-[var(--green-color)] font-dinProMedium text-[var(--green-color)]'>
         Find more experts
         <i class="ri-arrow-right-s-line"></i>
       </div>

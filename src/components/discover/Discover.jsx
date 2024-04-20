@@ -6,14 +6,14 @@ const Discover = () => {
   const text = "Discover Ayurveda's magic with us"
 
   return (
-    <div className='w-[100vw] h-[105vh]   flex flex-col gap-5 items-center pt-7'>
+    <div className='w-[100vw] h-fit lg:h-[105vh] px-4  flex flex-col lg:gap-5 items-center pt-10 lg:pt-7'>
       
-      <div className='text-center flex flex-col gap-3'>
+      <div className='text-center  flex flex-col gap-3 px-3'>
         <Heading value={text}/>
-        <p className='font-dinProMedium text-[var(--dark-gray-color)]'>Ayurvedic treatment aims to balance your body and mind, bringing harmony <br /> and vitality. It's like a journey to better health using ancient wisdom, <br /> a totally effective approach for a better life.</p>
+        <p className='font-dinProMedium text-sm text-[var(--dark-gray-color)]'>Ayurvedic treatment aims to balance your body and mind, bringing harmony <br /> and vitality. It's like a journey to better health using ancient wisdom, <br /> a totally effective approach for a better life.</p>
       </div>
       
-      <div className='flex  w-full'>
+      <div className=' flex  w-full'>
 
         <div className='flex-1 relative -mr-5 z-10  flex flex-col gap-14 items-end '>
 
