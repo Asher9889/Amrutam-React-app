@@ -4,7 +4,7 @@ const DiscoverSm = () => {
   return (
     <div className=' justify-center lg:hidden  pb-10 flex flex-row gap-4 px-5 flex-wrap w-full h-fit'>
         
-        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40  gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame13.png" alt="" />
           </div>
@@ -14,7 +14,7 @@ const DiscoverSm = () => {
           </div>
         </div>
 
-        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40  gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame14.png" alt="" />
           </div>
@@ -24,7 +24,7 @@ const DiscoverSm = () => {
           </div>
         </div>
 
-        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40   gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame15.png" alt="" />
           </div>
@@ -34,7 +34,7 @@ const DiscoverSm = () => {
           </div>
         </div>
         
-        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]  flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40  gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame16.png" alt="" />
           </div>
@@ -44,7 +44,7 @@ const DiscoverSm = () => {
           </div>
         </div>
 
-        <div className='flex h-[297.33px]   flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]   flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame17.png" alt="" />
           </div>
@@ -54,7 +54,7 @@ const DiscoverSm = () => {
           </div>
         </div>
 
-        <div className='flex h-[297.33px]   flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40 h-fit  gap-4 mt-5'>
+        <div className='flex h-[297.33px]   flex-col px-2  items-center border border-[#E4E4E4] py-6 rounded-xl w-40  gap-4 mt-5'>
           <div className='w-20 h-20 rounded-full p-3 bg-[#EDF5FA] flex justify-center items-center'>
             <img className="w-12 h-12" src="/frame18.png" alt="" />
           </div>
