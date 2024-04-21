@@ -8,12 +8,11 @@
   height: 100%;
 }
 .color3{
-  background: linear-gradient(180deg, rgba(18,18,18,0.9445903361344538) 0%, rgba(18,18,18,0.7588760504201681) 38%, rgba(18,18,18,0.2) 100%);
+  background: linear-gradient(180deg, rgba(18,18,18,0.9445903361344538) 0%, rgba(18,18,18,0.7588760504201681) 38%, rgba(18,18,18,0) 100%);
   position: absolute;
   top: 0;
-  left: 0;
   width: 100vw;
-  height: 163vh;
+  height: 130vh;
   }
    /* @media (max-width: 480px) {
   .header-img1,.header-img2{
