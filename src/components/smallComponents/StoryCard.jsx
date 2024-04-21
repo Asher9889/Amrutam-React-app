@@ -9,7 +9,7 @@ const StoryCard = () => {
         </div>
         <div className='font-mixed font-semibold text-medium leading-6 mr-5 text-[#414141]'>
           <h3 >Sophie Moore</h3>
-          <p className='font-thin'>Chennai</p>
+          <p className='font-thin text-start'>Chennai</p>
         </div>
         <div className='font-nexa text-sm'>
           17/02/24

@@ -14,6 +14,7 @@ const Story = () => {
       <div className='flex gap-8 pb-8 lg:pb[0] overflow-x-auto '>
         {data.map((elem,index)=> <StoryCard key="elem"/>)}
       </div>
+      
       <div className='lg:pb-0 pb-6' >
         <span className='inline-block w-2 h-2 rounded-full bg-zinc-700 mr-3'></span>
         <span className='inline-block w-2 h-2 rounded-full bg-zinc-400 mr-3'></span>
