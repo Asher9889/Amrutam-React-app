@@ -19,12 +19,12 @@ const Consultation = () => {
   return (
     <div className=' lg:w-[100vw] h-fit lg:h-[100vh] bg-[var(--primary-bg-color)] '>
       <div className='lg:h-[20vh] h-[35vh] flex flex-col justify-center'>
-        <div className='  text-3xl ml-6 md:ml-0 flex justify-center'>
+        <div className='  text-3xl w-full mx-auto py-6 md:ml-0 flex justify-center'>
           <Heading  value={text}/>
         </div>
       </div>
 
-      <div className="lg:h-[80vh] h-fit  ">
+      <div className="lg:h-[80vh] h-fit py-6  ">
         <div className='lg:w-full h-fit  lg:h-full  lg:mt-4 px-6 flex flex-col gap-8 lg:gap-[70px] flex-wrap  lg:px-44'>
           <div className='flex flex-wrap  gap-6 lg:gap-2 gap-1'>
 
