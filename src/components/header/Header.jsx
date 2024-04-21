@@ -37,7 +37,7 @@ const Header = () => {
           Step into Holistic Healing with Ayurveda <br />
           Book Consultation with certified Experts.
         </p>
-        <p className="text-lg mb-10 lg:mb-[0] w-96 lg:w-[55vw] lg:text-md text-[var(--gray-color)] ">
+        <p className="text-lg  lg:mb-[0] w-96 lg:w-[55vw] lg:text-md text-[var(--gray-color)] ">
           Dive into the world of ayurveda and Experience Personalized Health
           Solutions and 
           Holistic Guidance from Trusted Ayurvedic Doctors Anytime, anywhere.
