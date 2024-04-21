@@ -7,11 +7,13 @@ const Header = () => {
 
   return (
     <div className="w-full h-fit lg:h-screen bg-[var(--primary-bg-color)] relative">
+
       <div className="h-[10%] flex  items-center p-6 gap-20">
         <img className="w-4 h-4  sm:hidden" src="/frame30.png" alt="logo" />
         <img className="w-28 h-4 sm:hidden" src="/frame31.png" alt="AMRUTAM" />
       </div>
-      <div className="header-div h-[130vh] md:h-[100vh]  lg:h-[70%] relative  flex">
+
+      <div className="header-div w-[100vw] h-fit  lg:h-[70%] relative  flex">
         {/* image for lg screen */}
         <div className="hidden md:inline-block w-[45%] lg:h-[70vh] bg-[#951D1C]"></div>
 
@@ -23,19 +25,21 @@ const Header = () => {
           <img src="/frame32.png" alt="" className="w-full h-full object-cover md:hidden " />
        
 
-        <div className="color "></div>
+        <div className="color hidden lg:block "></div>
+        <div className="color3 lg:hidden "></div>
       </div>
-      <div className="header-text-div absolute top-[16%] lg:top-[20%] left-[5%] flex flex-col gap-4 lg:gap-6 ">
+
+      <div className="header-text-div absolute top-[16%] lg:top-[20%] left-[5%] flex flex-col gap-8 lg:gap-6 ">
         <p className="font-nexa text-[18px]  text-[var(--text-primary-color)] lg:text-xl">
           Namaste, Welcome to Amrutam
         </p>
-        <p className=" text-[24px]  font-dinPro lg:leading-[4vw] lg:text-[3.2vw] text-[var(--text-secondary-color)]">
+        <p className=" text-4xl leading-[1.3]  font-dinPro lg:leading-[4vw] lg:text-[3.2vw] text-[var(--text-secondary-color)]">
           Step into Holistic Healing with Ayurveda <br />
           Book Consultation with certified Experts.
         </p>
-        <p className="text-[14px] lg:text-md text-[var(--gray-color)] mb- lg:mb-5">
+        <p className="text-lg mb-10 lg:mb-[0] w-96 lg:w-[55vw] lg:text-md text-[var(--gray-color)] ">
           Dive into the world of ayurveda and Experience Personalized Health
-          Solutions and <br />
+          Solutions and 
           Holistic Guidance from Trusted Ayurvedic Doctors Anytime, anywhere.
         </p>
         <Button value={text} />
