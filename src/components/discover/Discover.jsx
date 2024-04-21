@@ -17,7 +17,7 @@ const Discover = () => {
         </p>
       </div>
       <div className="flex-1 pt-6 lg:hidden   relative">
-        <img className="w-[95%] bg-transparent" src="/frame5.png" alt="" />
+        <img className="picture w-[95%] bg-transparent" src="/frame5.png" alt="" />
         <img
           className="w-[95%] bg-transparent absolute top-12 right-7 "
           src="/frame6.png"
@@ -72,7 +72,7 @@ const Discover = () => {
           </div>
 
           <div className="relative  ">
-            <img className=" bg-pink-800 h-full bg-transparent" src="/frame5.png" alt="" />
+            <img className="picture bg-pink-800 h-full bg-transparent" src="/frame5.png" alt="" />
             <img className="absolute top-8 right-2  bg-transparent" src="/frame6.png" alt="" />
           </div>
 
