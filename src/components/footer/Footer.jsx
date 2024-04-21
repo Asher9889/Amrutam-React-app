@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="lg:hidden flex flex-col w-80 mx-auto items-start justify-center font-dinProRegular gap-4">
         <p className="font-dinPro text-[var(--green-color)] text-lg">Get in touch</p>
         <p className=" text-md text-black">support@amrutam.co.in</p>
-        <p>Amrutam Pharmaceuticals Pvt Ltd., chitragupt ganj, Nai Sadak, Lashkar, Gwalior - 474001 +91 9713171999</p>
+        <p>Amrutam Pharmaceuticals Pvt Ltd., chitragupt ganj, Nai Sadak, Lashkar, Gwalior - 474001</p>
         <p>+91 9713171999</p>
         <img src="frame34.png" alt="" />
       </div>
