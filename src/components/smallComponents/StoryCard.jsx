@@ -2,9 +2,9 @@ import React from 'react'
 
 const StoryCard = () => {
   return (
-    <div className='w-72 h-64  rounded-xl shadow-xl flex flex-col gap-2  shadow-xl'>
+    <div className='w-72 h-64 bg-white  rounded-xl shadow-xl flex flex-col gap-2  shadow-xl'>
       <p className=' w-full rounded-t-xl p-1 px-4 font-nunito text-sm bg-[#ECE7FF]'>Consulted for Skin</p>
-      <div className='flex justify-center bg-white items-start gap-1 lg:gap-2 justify-start px-4'>
+      <div className='flex justify-center  items-start gap-1 lg:gap-2 justify-start px-4'>
         <div className='w-12 h-12 rounded-full bg-zinc-400'>
         </div>
         <div className='font-mixed font-semibold text-medium leading-6 mr-5 text-[#414141]'>

@@ -11,7 +11,7 @@ const ExpertCard = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 justify-center items-center -mt-9  ">
+      <div className="flex flex-col gap-2 justify-center items-center -mt-6  ">
         <h1 className="font-gotham">Dr. Vaishali Sharma</h1>
         <p className="text-[#838383] text-center text-sm ">Ayurveda Practitioner (BAMS, MD)</p>
         <p className="font-nunitoSemi font-base text-sm"><i class="ri-graduation-cap-line"></i> 25 years of experience</p>

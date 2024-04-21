@@ -22,9 +22,9 @@ const Footer = () => {
       </div>
       <div className="lg:hidden">
         <p className="font-dinPro text-[var(--green-color)] text-lg">Subscribe to our Newsletter and join Amrutam Family today!</p>
-        <div className="w-full h-10 bg-black mt-4 rounded-full">
+        <div className="w-full h-10  mt-4 rounded-full">
           <input className="h-full text-sm rounded-l-full outline-none px-3" placeholder="Your Email Address" type="text" />
-          <button className="h-full pl-2 font-dinPro text-white">Subscribe</button>
+          <button className="h-full rounded-r-full pr-4 bg-black pl-2 font-dinPro text-white">Subscribe</button>
         </div>
       </div>
     </div>
