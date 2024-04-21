@@ -29,8 +29,8 @@ const Header = () => {
         <div className="color3 lg:hidden "></div>
       </div>
 
-      <div className=" absolute bg-red-500 w-[100%] h-[35%] pr-10 top-[16%] lg:top-[20%] left-[5%] right-[5%] ">
-        <div className="mx-auto bg-yellow-500 h-[100%] w-[100%]   flex flex-col justify-between mb-2 lg:gap-6 ">
+      <div className=" absolute  w-[100%] h-[35%] pr-10 top-[16%] lg:top-[20%] left-[5%] right-[5%] ">
+        <div className="mx-auto  h-[100%] w-[100%]   flex flex-col justify-between mb-2 lg:gap-6 ">
         <p className="font-nexa text-[18px]  text-[var(--text-primary-color)] lg:text-xl">
           Namaste, Welcome to Amrutam
         </p>
